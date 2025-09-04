@@ -46,34 +46,47 @@ left:37% ;
 }
 
 
-.title h1 {
-  font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  margin: 20px 0;
-  text-align: center;
 
-  /* Main color */
-  color: #ffe6f7; /* soft light pink (adjust if you want cyan/blue instead) */
 
-  /* Text shadows for depth (3D effect) */
-  text-shadow: 
-    2px 2px 0 #ff4da6,   /* bottom-right pink shadow */
-    4px 4px 0 #d63384,   /* darker pink layer */
-    6px 6px 8px rgba(0,0,0,0.4), /* realistic dark shadow */
-    0 0 15px rgba(255,105,180,0.6); /* outer neon glow */
+@media only screen and (max-width:427px){
 
-  /* Subtle 3D animation */
-  animation: float 3s ease-in-out infinite;
+    body{
+        background-image: url('./Alone\ time.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main{
+        position: absolute;
+    top: 30%;
+    right: 15%;
+    height: 186px;
+    width: 58%;
+    }
+    .input{
+        width: 32%;
+        position: absolute;
+        left: 32%;
+    }
+    .title{
+        position: absolute;
+    top: 5%;
+    left: 23%;
+
+    }
+
 }
-
-/* Floating animation */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(-6px) scale(1.05);
-  }
+@media only screen and (min-width:427px) and (max-width:1000px){
+    
+    body{
+        background-image: url('./is\ it\ not\ beautiful__.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main{
+        position: absolute;
+        right: 29%;
+        height: 120px;
+        width: 40%;
+    }
+    
 }
