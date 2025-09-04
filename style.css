@@ -1,0 +1,79 @@
+body{
+background-color: rgb(58, 58, 58);
+background-image:url('/is\ it\ not\ beautiful__.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.title{
+position: absolute;
+top:5% ;
+left:37% ;
+}
+.main{
+    padding: 22px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    height: 300px;
+    width: 30%;
+    background-color: rgb(228, 228, 232);
+    opacity: 0.8;
+     color: rgb(69, 67, 67);
+    border-radius: 38px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    
+
+}
+.main::-webkit-scrollbar { /* Chrome, Edge, Safari */
+  display: none;
+}
+
+.input {
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 16 px;
+    position: absolute;
+    left: 42%;
+    top: 20%;
+    border-radius: 14px;
+    height: 32px;
+    width: 14%;
+}
+
+
+.title h1 {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 20px 0;
+  text-align: center;
+
+  /* Main color */
+  color: #ffe6f7; /* soft light pink (adjust if you want cyan/blue instead) */
+
+  /* Text shadows for depth (3D effect) */
+  text-shadow: 
+    2px 2px 0 #ff4da6,   /* bottom-right pink shadow */
+    4px 4px 0 #d63384,   /* darker pink layer */
+    6px 6px 8px rgba(0,0,0,0.4), /* realistic dark shadow */
+    0 0 15px rgba(255,105,180,0.6); /* outer neon glow */
+
+  /* Subtle 3D animation */
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.05);
+  }
+}
