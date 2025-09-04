@@ -59,7 +59,7 @@ body {
     body {
         background-image: url('./Alone\ time.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 466px;
     }
 
     .main {
@@ -92,7 +92,7 @@ body {
     body {
         background-image: url('./is\ it\ not\ beautiful__.jpg');
         background-repeat: no-repeat;
-        background-size: 653px;
+        background-size: cover;
     }
 
     .main {
@@ -103,4 +103,5 @@ body {
     }
 
 }
+
 
